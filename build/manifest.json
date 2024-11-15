@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Currency Converter",
+  "description": "Base Level Extension",
+  "version": "1.0",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "currency_icon.png",
+      "48": "currency_icon.png",
+      "128": "currency_icon.png"
+    }
+  },
+  "permissions": ["scripting", "activeTab"]
+}
